@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef1f5;
+    /* Softer light gray background color for the whole app */
+    margin: 0;
+    padding: 0;
+}
+
+.property-advice-form-container {
+    background-image: url('../assets/pro_advi_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    /* Increased padding for more space */
+    max-width: 1200px;
+    margin: 40px auto;
+    /* Increased margin for better centering */
+    background-color: #ffffff;
+    border-radius: 12px;
+    /* Slightly larger rounded corners for a modern look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    /* Stronger shadow for depth */
+    background-blend-mode: normal;
+}
+
+
+
+/* Input Fields */
+.property-advice-form-container .MuiTextField-root {
+    border-radius: 6px;
+    /* Slightly larger rounded corners */
+    border: 2px solid black;
+    /* Softer border color */
+    padding: 8px;
+    /* Added padding for better usability */
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for inputs */
+}
+
+/* Focused/Hover Input */
+.property-advice-form-container .MuiTextField-root:hover,
+.property-advice-form-container .MuiTextField-root.Mui-focused {
+    border-color: #4CAF50;
+    /* Consistent green color for focus/hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    /* Stronger shadow on hover/focus */
+}
+
+/* Icons */
+.property-advice-form-container .MuiInputAdornment-root {
+    color: #4CAF50;
+    /* Green color for icons */
+}
+
+/* Heading */
+.property-advice-form-container .MuiTypography-h5 {
+    color: #222;
+    /* Slightly darker text for better readability */
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* Increased spacing */
+}
+
+/* Subtitle */
+.property-advice-form-container .MuiTypography-subtitle1 {
+    color: #666;
+    /* Slightly lighter subtitle for contrast */
+    margin-bottom: 30px;
+    /* Increased spacing */
+}
+
+/* Submit Button */
+.property-advice-form-container .MuiButton-root {
+    background-color: #4CAF50;
+    /* Vibrant green */
+    font-size: 16px;
+    border-radius: 6px;
+    /* Larger rounded corners */
+    padding: 14px 28px;
+    /* Increased padding */
+    margin: 20px;
+    /* Increased margin */
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover Button */
+.property-advice-form-container .MuiButton-root:hover {
+    background-color: #45A049;
+    /* Slightly darker green on hover */
+}
+
+/* Error and Success Messages */
+.error-message,
+.success-message {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.error-message {
+    color: white;
+    /* Bright red for error messages */
+    display: flex;
+    align-items: center;
+    /* Align icon with text */
+    background-color: red;
+    width: 15%;
+}
+
+.success-message {
+    color: white;
+    /* Bright green for success messages */
+
+    align-items: center;
+    /* Align icon with text */
+    background-color: green;
+    width: 32%;
+}
+
+/* Center Text */
+.text-center {
+    text-align: center;
+}
+
+/* Consistent Font Usage */
+button,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Placeholder Text */
+.property-advice-form-container .MuiInputBase-input::placeholder {
+    font-weight: 500;
+    color: #999;
+    /* Lighter gray for placeholder text */
+}

@@ -1,0 +1,15 @@
+Example styles
+.valuation-card {
+    background-color: #eaf4ea;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+.valuation-card:hover {
+    transform: translateY(-5px);
+}
+
+button {
+    text-transform: none;
+    /* Disable uppercase transformation */
+}
